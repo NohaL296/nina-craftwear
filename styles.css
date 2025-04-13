@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px; 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #f9c5d1;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Slider */
+#slider {
+    margin-top: 30px;
+    margin-bottom: 40px; /* Reduced to prevent too much space */
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    height: 350px; /* Set a fixed height for the slider */
+    margin-top: 10px;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    float: left;
+    width: 20%;
+    height: 350px; /* Ensure image height matches slider container */
+}
+
+@keyframes slider {
+    0% { left: 0; }
+    20% { left: 0; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+/* Paragraph Styling - Align to Left */
+#paragraph {
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 40px; /* Move it down further from the slider */
+    max-width: device width; /* Set max width for better readability */
+    
+     /* Center the paragraph horizontally */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#CHOICE a h2:hover,
+{text-align: LEFT;
+margin-top: 20px;
+margin-left: 90px;
+background-color: #f9c5d1;
+color: white;
+border-color: #f9c5d1;
+}
+#LESSONS a h2:hover,
+{text-align: right;
+margin-top: 0px;
+margin-right:290px ;
+background-color: #f9c5d1;
+color: white;
+border-color: #f9c5d1;}
+#CHOICE a h2,
+#LESSONS a h2 {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid #d6336c;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;}
+#body
+{background-color: lightgoldenrodyellow;}
+#paragraph, #CHOICE, #LESSONS {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Hover effect for links */
+a {
+    text-decoration: none;
+    color: #d6336c;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a61e4d;
+    text-decoration: underline;
+}
+#textshort
+{text-align: center;
+text-decoration: underline;}
+#HI{
+    text-align: left;
+    margin-left: 50px;}
+#HII{
+    text-align: right;
+    margin-right: 50px;
+}
+#us{
+    text-decoration: underline;
+}
+#em{text-decoration: underline;
+
+}
+#ph{text-decoration: underline;
+
+}
+#ins{text-decoration: underline;
+
+}
+/* Glowing effect on target */
+:target {
+  animation: glow 1.5s ease-out;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 0px rgba(0, 255, 0, 0);
+    background-color: transparent;
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    background-color: rgba(0, 255, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(0, 255, 0, 0);
+    background-color: transparent;
+  }
+}
+/* Contact Us and Address Section Styling */
+
+/* General styling for Contact Us and Address sections */
+#HI, #HII {
+    background-color: #ffffff; /* Light background color for the sections */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 80%; /* Limit the width of the sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    animation: fadeIn 1.5s ease-in-out; /* Fade-in animation */
+}
+
+/* Styling for the Contact Us heading */
+#HI h2, #HII h2 {
+    color: #d6336c; /* Color matching the theme */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Styling for the subheadings (e.g., PHONE NUMBER, INSTAGRAM) */
+#HI div, #HII div {
+    font-weight: bold;
+    color: #333333;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Styling for the content (e.g., the actual contact details) */
+#HI div, #HII div {
+    font-size: 1em;
+    color: #666666; /* Slightly lighter color for readability */
+}
+
+/* Specific styling for the Contact Us section */
+#HI {
+    background-color: #f9f5f7;
+}
+
+/* Specific styling for the Address section */
+#HII {
+    background-color: #e7f3f7;
+}
+
+/* Styling for the hyperlinks inside Contact Us and Address */
+#HI a, #HII a {
+    color: #d6336c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#HI a:hover, #HII a:hover {
+    color: #a61e4d;
+    text-decoration: underline;
+}
+#lang{
+    text-decoration: underline;
+    text-align: center;
+}
+#amh{
+    text-align: center;
+   
+}
+#tig{
+    text-align: center;
+   
+}

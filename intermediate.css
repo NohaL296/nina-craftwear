@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #f9c5d1;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #d6336c;
+}
+
+h1 {
+    font-size: 2.8em;
+    color: #b22d5c;
+}
+
+.lesson-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.video-link a {
+    color: #d6336c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video-link a:hover {
+    text-decoration: underline;
+    color: #a61e4d;
+}
+
+#next-step {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #f9c5d1;
+    padding: 20px;
+    border-radius: 12px;
+    width: fit-content;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#next-step a {
+    color: #a61e4d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+#next-step a:hover {
+    text-decoration: underline;
+    color: #d6336c;
+}
+
+/* Quiz Section */
+.quiz-section {
+    background-color: #ffefed;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.quiz-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.quiz-section p {
+    font-size: 1.2em;
+}
+
+.quiz-question {
+    margin-bottom: 20px;
+}
+
+.quiz-button {
+    background-color: #d6336c;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz-button:hover {
+    background-color: #a61e4d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+#ho {
+    text-align: left;
+    margin: 20px;
+}
+
+#ho li {
+    list-style: none;
+}
+
+#ho a {
+    background-color: #f2d6c2;
+    color: #5c3d2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #5c3d2e;
+    transition: all 0.3s ease;
+}
+
+#ho a:hover {
+    background-color: #5c3d2e;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+}

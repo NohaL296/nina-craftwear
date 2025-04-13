@@ -1,0 +1,235 @@
+/* General reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #0c3c78;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Intro Section Styling */
+#intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+    color: #666;
+}
+
+/* Class Types Section */
+#class-types {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+}
+
+#class-types h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.class-option {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.class-option h3 {
+    font-size: 1.8rem;
+    color: #0c3c78;
+}
+
+.class-option p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+/* Join Class Section */
+#join-class {
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+
+#join-class h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#join-class form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#join-class label {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+#join-class input, #join-class select {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#join-class button {
+    padding: 1rem;
+    background-color: #0c3c78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#join-class button:hover {
+    background-color: #083a60;
+}
+
+/* Testimonial Section */
+#testimonial {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#testimonial h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#testimonial p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0c3c78;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+#choice{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#body{background-color: lightgrey;}
+#ho {
+    text-align: left;
+    margin: 20px;
+}
+
+#ho li {
+    list-style: none;
+}
+
+#ho a {
+    background-color: #f2d6c2;
+    color: #5c3d2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #5c3d2e;
+    transition: all 0.3s ease;
+}
+
+#ho a:hover {
+    background-color: #5c3d2e;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+}
+#choice {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+#choice h1 {
+    font-size: 2rem;
+    color: #5c3d2e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#beg-link, #int-link, #adv-link {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#beg-link a, #int-link a, #adv-link a {
+    background-color: #f2d6c2;
+    color: #5c3d2e;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #5c3d2e;
+    transition: all 0.3s ease;
+}
+
+#beg-link a:hover, #int-link a:hover, #adv-link a:hover {
+    background-color: #5c3d2e;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Optional: Clean up <li> and <h1> inside <a> if you're keeping that structure */
+#beg-link li, #int-link li, #adv-link li {
+    list-style: none;
+}
+
+#beg-link h1, #int-link h1, #adv-link h1 {
+    margin: 0;
+    font-size: 1.2rem;
+}

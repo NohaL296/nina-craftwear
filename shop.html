@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shop page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NINA CRAFTWEAR</h1>
+  </header>
+<div id="ho"><li><a href="try.html">HOME</a></li></div>
+
+  <section class="product-list">
+      <div class="product" onclick="addToCart('baby cloth', 1500 , 'baby cloth.jpg')">
+      <img src="baby cloth.jpg" alt="baby cloth">
+      <h3>BABY CLOTHES</h3>
+      <p>ETB 1500.00 </p></div>
+      <div class="product" onclick="addToCart('beach cloth', 3500 , 'beach clothes.jpg')">
+      <img src="beach clothes.jpg" alt="beach cloth">
+      <h3>BEACH CLOTHES</h3>
+      <p>ETB 3500.00 </p></div>
+      <div class="product" onclick="addToCart('cardigan', 3000 , 'cardigan.jpg')">
+      <img src="cardigan.jpg" alt="cardigan">
+      <h3>CARDIGAN</h3>
+      <p>ETB 3000.00 </p></div>
+      <div class="product" onclick="addToCart('PILLOW CLOTH', 700 , 'pillow.jpg')">
+      <img src="pillow.jpg" alt="pillow CLOTH">
+      <h3>PILLOW CLOTH</h3>
+      <p>ETB 700.00 </p></div>
+      <div class="product" onclick="addToCart('bags', 2500 , 'bags.jpg')">
+      <img src="bags.jpg" alt="bags">
+      <h3>BAGS</h3>
+      <p>ETB 1000.00 </p></div><br><br><br><br><br><br><br>
+      <div class="product" onclick="addToCart('table rug', 700 , 'table rug.jpg')">
+      <img src="table rug.jpg" alt="table rug">
+      <h3>TABLE RUGS</h3>
+      <p>ETB 700.00 </p></div>
+      <div class="product" onclick="addToCart('table rug', 1500 , 'table rug.jpg')">
+      <img src="tops.jpg" alt="tops">
+      <h3>TOPS</h3>
+      <p>ETB 1500.00 </p></div>
+      <div class="product" onclick="addToCart('hats', 400 , 'hats.jpg')">
+      <img src="hats.jpg" alt="hats">
+      <h3>HATS</h3>
+      <p>ETB 400.00 </p></div>
+      <div class="product" onclick="addToCart('table runner', 2000 , 'table runners.jpg')">
+      <img src="table runners.jpg" alt="table runner">
+      <h3>TABLE RUNNERS</h3>
+      <p>ETB 2000.00 </p></div>
+      <div class="product" onclick="addToCart('baby blankets', 2000 , 'baby blankets.jpg')">
+      <img src="baby blankets.jpg" alt="baby BLANKETS">
+      <h3>BABY'S BLANKETS</h3>
+      <p>ETB 3500.00 </p></div>
+  </section>
+
+<div id="textshort"><p><h2>OUR PRODUCTS ARE NOT LIMITED BY THE PICTURES.<br><a href="try.html#hi">contuct us </a>for more details about our sales.</h2></p></div>
+
+  <section id="selected-products">
+    <h3>Your Selections:</h3>
+    <ul id="cart-list"></ul>
+  </section>
+
+  <section id="contact-form">
+    <h3>Contact Information</h3>
+    <form id="order-form" onsubmit="sendOrder(event)">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="tel" id="phone" placeholder="Your Phone Number" required>
+      <textarea id="message" placeholder="Additional Details (optional)"></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="language.js"></script> <!-- Language logic for switching text -->
+</body>
+</html>

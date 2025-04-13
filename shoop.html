@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>የመደብር ገጽ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ኒና ክራፍትዌር</h1>
+  </header>
+<div id="ho"><li><a href="amharic.html">መነሻ</a></li></div>
+
+  <section class="product-list">
+      <div class="product" onclick="addToCart('baby cloth', 1500 , 'baby cloth.jpg')">
+      <img src="baby cloth.jpg" alt="baby cloth">
+      <h3>የህፃን አልባሳት</h3>
+      <p>የኢትዮጵያ ብር 1500.00 </p></div>
+      <div class="product" onclick="addToCart('beach cloth', 3500 , 'beach clothes.jpg')">
+      <img src="beach clothes.jpg" alt="beach cloth">
+      <h3>የባህር ዳር አልባሳት</h3>
+      <p>የኢትዮጵያ ብር 3500.00 </p></div>
+      <div class="product" onclick="addToCart('cardigan', 3000 , 'cardigan.jpg')">
+      <img src="cardigan.jpg" alt="cardigan">
+      <h3>ካርዲጋን</h3>
+      <p>የኢትዮጵያ ብር 3000.00 </p></div>
+      <div class="product" onclick="addToCart('PILLOW CLOTH', 700 , 'pillow.jpg')">
+      <img src="pillow.jpg" alt="pillow CLOTH">
+      <h3>የትራስ ልብስ</h3>
+      <p>የኢትዮጵያ ብር 700.00 </p></div>
+      <div class="product" onclick="addToCart('bags', 2500 , 'bags.jpg')">
+      <img src="bags.jpg" alt="bags">
+      <h3>ቦርሳዎች</h3>
+      <p>የኢትዮጵያ ብር 1000.00 </p></div><br><br><br><br><br><br><br>
+      <div class="product" onclick="addToCart('table rug', 700 , 'table rug.jpg')">
+      <img src="table rug.jpg" alt="table rug">
+      <h3>የጠረጴዛ ጨርቅ</h3>
+      <p>የኢትዮጵያ ብር 700.00 </p></div>
+      <div class="product" onclick="addToCart('table rug', 1500 , 'table rug.jpg')">
+      <img src="tops.jpg" alt="tops">
+      <h3>ቶፖች</h3>
+      <p>የኢትዮጵያ ብር 1500.00 </p></div>
+      <div class="product" onclick="addToCart('hats', 400 , 'hats.jpg')">
+      <img src="hats.jpg" alt="hats">
+      <h3>ተራፊ ኮፍያዎች</h3>
+      <p>የኢትዮጵያ ብር 400.00 </p></div>
+      <div class="product" onclick="addToCart('table runner', 2000 , 'table runners.jpg')">
+      <img src="table runners.jpg" alt="table runner">
+      <h3>የጠረጴዛ ማሽከርከሪያ</h3>
+      <p>የኢትዮጵያ ብር 2000.00 </p></div>
+      <div class="product" onclick="addToCart('baby blankets', 2000 , 'baby blankets.jpg')">
+      <img src="baby blankets.jpg" alt="baby BLANKETS">
+      <h3>የህፃናት ብራንኬት</h3>
+      <p>የኢትዮጵያ ብር 3500.00 </p></div>
+  </section>
+
+<div id="textshort"><p><h2>እቃችን በፎቶዎች ውስጥ ብቻ አይገደብም።<br><a href="try.html#hi">ለተጨማሪ መረጃ</a> እባክዎን ያግኙን።</h2></p></div>
+
+  <section id="selected-products">
+    <h3>የመረጡት እቃዎች:</h3>
+    <ul id="cart-list"></ul>
+  </section>
+
+  <section id="contact-form">
+    <h3>የእርስዎ መረጃ</h3>
+    <form id="order-form" onsubmit="sendOrder(event)">
+      <input type="text" id="name" placeholder="ስምዎ" required>
+      <input type="email" id="email" placeholder="ኢሜይልዎ" required>
+      <input type="tel" id="phone" placeholder="ስልክ ቁጥርዎ" required>
+      <textarea id="message" placeholder="ተጨማሪ መረጃ (አማራጭ)"></textarea>
+      <button type="submit">ትዕዛዝ ያቅርቡ</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="language.js"></script> <!-- Language logic for switching text -->
+</body>
+</html>
